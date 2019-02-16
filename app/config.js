@@ -132,20 +132,20 @@ module.exports = {
 		{name:(coins[currentCoin].name + " Fun"), url:"/fun", desc:"See fun/interesting historical blockchain data.", fontawesome:"fas fa-certificate"}
 	],
 
-	donationAddresses:{
-		coins:["BTC", "LTC"],
-		sites:{"BTC":"https://btc.chaintools.io", "LTC":"https://ltc.chaintools.io"},
+	// donationAddresses:{
+	// 	coins:["BTC", "LTC"],
+	// 	sites:{"BTC":"https://btc.chaintools.io", "LTC":"https://ltc.chaintools.io"},
+	//
+	// 	"BTC":{address:"3NPGpNyLLmVKCEcuipBs7G4KpQJoJXjDGe"},
+	// 	"LTC":{address:"ME4pXiXuWfEi1ANBDo9irUJVcZBhsTx14i"}
+	// },
 
-		"BTC":{address:"3NPGpNyLLmVKCEcuipBs7G4KpQJoJXjDGe"},
-		"LTC":{address:"ME4pXiXuWfEi1ANBDo9irUJVcZBhsTx14i"}
-	},
-
-	headerDropdownLinks: {
-		title:"Related Sites",
-		links:[
-			{name: "Bitcoin Explorer", url:"https://btc.chaintools.io", imgUrl:"/img/logo/btc.svg"},
-			{name: "Litecoin Explorer", url:"https://ltc.chaintools.io", imgUrl:"/img/logo/ltc.svg"},
-			{name: "Lightning Explorer", url:"https://lightning.chaintools.io", imgUrl:"/img/logo/lightning.svg"},
-		]
-	}
+	// headerDropdownLinks: {
+	// 	title:"Related Sites",
+	// 	links:[
+	// 		{name: "Bitcoin Explorer", url:"https://btc.chaintools.io", imgUrl:"/img/logo/btc.svg"},
+	// 		{name: "Litecoin Explorer", url:"https://ltc.chaintools.io", imgUrl:"/img/logo/ltc.svg"},
+	// 		{name: "Lightning Explorer", url:"https://lightning.chaintools.io", imgUrl:"/img/logo/lightning.svg"},
+	// 	]
+	// }
 };
